@@ -79,3 +79,5 @@ ACO=Advanced Character Options|~|Advanced Character Options
 
 [CommandScript:ACO]
 AgentControl.PropertySheet.Visible = True
+
+msagentweb://github.com/funnysuria/caine-circuspals/blob/main/CAINE.msh
