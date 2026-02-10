@@ -1,0 +1,81 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Caine=Caine.acs
+
+[LanguageIDs]
+Caine=&H409
+
+[Script]
+Caine.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Caine.Show
+Caine.Speak "Would you like to see my\Map=""rez-ooh-may""=""resume""\?"
+Caine.Speak "Wow! This looks like a wonderful website!\Map=""rez-ooh-may""=""resume""\?"
+Caine.Speak "Wow! This looks like a wonderful website!\Map=""rez-ooh-may""=""website""\?"
+Caine.Speak "Wow! This looks like a wonderful website\Map=""soo-ree-ah""=""Suria""\!"
+Caine.Speak "Wow! This looks like a wonderful website\Map=""soo-ree-a""=""Suria""\!"
+Caine.Speak "Wow! This looks like a wonderful website,\Map=""soo-ree-a""=""Suria""\!"
+Caine.Play "Acknowledge"
+Caine.Play "Announce"
+Caine.Play "Alert"
+Caine.Play "Blink"
+Caine.Play "Confused"
+Caine.Play "Congratulate"
+Caine.Play "Congratulate2"
+Caine.Play "Decline"
+Caine.Play "DoMagic1"
+Caine.Play "DoMagic2"
+Caine.Play "Explain"
+Caine.Play "FastExplain"
+Caine.Play "GestureDown"
+Caine.Play "GestureLeft"
+Caine.Play "GestureRight"
+Caine.Play "GestureUp"
+Caine.Play "GetAttention"
+Caine.Play "Giggle"
+Caine.Play "Greet"
+Caine.Hide
+Caine.Play "Idle1_1"
+Caine.Show
+Caine.Play "Idle1_2"
+Caine.Play "Idle2_1"
+Caine.Play "Idle2_2"
+Caine.Play "Idle3_1"
+Caine.Play "Idle3_2"
+Caine.Show
+Caine.Play "LookDown"
+Caine.Play "LookLeft"
+Caine.Play "LookRight"
+Caine.Play "LookUp"
+Caine.Play "Mad"
+Caine.Play "MoveDown"
+Caine.Play "MoveLeft"
+Caine.Play "MoveRight"
+Caine.Play "MoveUp"
+Caine.Play "Pleased"
+Caine.Play "Process"
+Caine.Play "Read"
+Caine.Play "ReadContinued"
+Caine.Play "ReadReturn"
+Caine.Play "RestPose"
+Caine.Play "Sad"
+Caine.Play "Search"
+Caine.Play "Searching"
+Caine.Show
+Caine.Play "Silly"
+Caine.Play "Suggest"
+Caine.Play "Surprised"
+Caine.Play "Think"
+Caine.Play "Uncertain"
+Caine.Play "Wave"
+Caine.Play "Writing"
+Caine.MoveTo 818, 179
+Caine.Hide
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True
